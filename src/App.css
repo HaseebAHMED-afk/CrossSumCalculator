@@ -27,3 +27,21 @@
     width: 20%;
     margin: auto;
 }
+
+@media only screen and (max-width:1025px) {
+    .input-field{
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width:770px) {
+    .input-field{
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width:430px) {
+    .input-field{
+        width: 70%;
+    }
+}

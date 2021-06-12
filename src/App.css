@@ -19,3 +19,11 @@
     color: white;
     margin: 100px auto 25px auto ; 
 }
+
+.input-field{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+    margin: auto;
+}

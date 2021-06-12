@@ -5,7 +5,7 @@ import { useState } from 'react';
 function App() {
 
   let [inputNumber , setInputNumber] = useState<String>('')
-  let [firstResult , setFirstResult] = useState<Number>(0)
+  let [finalResult , setFinalResult] = useState<Number>(0)
 
   const handleSubmit = async () =>{
     let result : number ;
@@ -20,7 +20,7 @@ function App() {
       return a + b;
   }, 0)
       
-    console.log(result);
+    setFinalResult(result)
     
 
   }
@@ -35,7 +35,7 @@ function App() {
       <div className='answer-card' >
         <div style={{margin:'auto'}} >
         <h1>Answer</h1>
-        <h2>0</h2>
+        {/* <h2>{finalResult}</h2> */}
         </div>
       </div>
     </div>

@@ -9,6 +9,12 @@ function App() {
       <TextField variant='filled' color='secondary' label='Enter a number' />
       <Button variant='contained' color='secondary' >Submit</Button>
       </div>
+      <div className='answer-card' >
+        <div style={{margin:'auto'}} >
+        <h1>Answer</h1>
+        <h2>0</h2>
+        </div>
+      </div>
     </div>
   );
 }

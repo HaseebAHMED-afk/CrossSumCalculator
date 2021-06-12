@@ -28,6 +28,29 @@
     margin: auto;
 }
 
+.answer-card{
+    background: rgba( 236, 46, 152, 0.45 );
+box-shadow: 0 8px 32px 0 rgba(185, 4, 58, 0.37);
+backdrop-filter: blur( 10.0px );
+-webkit-backdrop-filter: blur( 10.0px );
+border-radius: 15px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+height: 250px;
+width: 250px;
+margin: 50px auto;
+text-align: center;
+display: flex;
+align-items: center;
+flex-direction: row;
+}
+
+.answer-card h1,h2{
+    margin: 10px;
+    color: white;
+    font-family: 'Roboto';
+}
+
+
 @media only screen and (max-width:1025px) {
     .input-field{
         width: 30%;

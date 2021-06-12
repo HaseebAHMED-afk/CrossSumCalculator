@@ -5,9 +5,24 @@ import { useState } from 'react';
 function App() {
 
   let [inputNumber , setInputNumber] = useState<String>('')
+  let [firstResult , setFirstResult] = useState<Number>(0)
 
-  const handleSubmit = () =>{
-    console.log(Number(inputNumber));
+  const handleSubmit = async () =>{
+    let result : number ;
+    let sum = inputNumber
+    .split('')
+    .map(Number)
+    .reduce(function (a, b) {
+        return a + b;
+    }, 0);
+
+    result = sum.toString().split('').map(Number).reduce(function (a, b) {
+      return a + b;
+  }, 0)
+      
+    console.log(result);
+    
+
   }
 
   return (

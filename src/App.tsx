@@ -35,7 +35,7 @@ function App() {
       <div className='answer-card' >
         <div style={{margin:'auto'}} >
         <h1>Answer</h1>
-        <h2>{finalResult}</h2>
+        <h2>{finalResult}</h2>                     
         </div>
       </div>
     </div>
